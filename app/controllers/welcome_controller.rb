@@ -4,5 +4,8 @@ class WelcomeController < ApplicationController
   end
 
   def poem
+  end
+
+  def quotes
   end 
 end
