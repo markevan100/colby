@@ -10,8 +10,16 @@
   </head>
 
   <body>
+    <div id="header">
+       <div class='container'>
+         <%= link_to 'Home', welcome_home_path %>
+         <%= link_to 'Poem', welcome_poem_path %>
+         <%= link_to 'Quotes', welcome_quotes_path %>
+         <h1>Colby & Emily</h1>
+</div>
+    </div>
 
-    <%= image_tag("colby_em.png", width: "150px")%>
+
     <%= yield %>
   </body>
 </html>
